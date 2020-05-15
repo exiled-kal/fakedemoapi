@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 //retrieve all stores
-app.get('/api/stores', (req, res) => {
+app.get('/api/stores', (req, res) => {-
     res.json({
         stores: [{
             name: "Ralph's",
